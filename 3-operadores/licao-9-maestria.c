@@ -2,7 +2,7 @@
 
 int checkEligibility(float gpa, int creditHours, int hasViolations, int hasRecommendations) {
     // Escreva seu código aqui para verificar a elegibilidade
-    int Eligibility = (gpa >= 3.5 || hasRecommendations) && creditHours >= 60 && hasViolations != 0;
+    int Eligibility = (gpa >= 3.5 || hasRecommendations) && creditHours >= 60 && !hasViolations;
 
     // Retorne 1 se elegível, 0 se não elegível
     return Eligibility;
@@ -27,3 +27,8 @@ int main() {
     
     return 0;
 }
+
+/*
+
+
+*/
