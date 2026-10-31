@@ -10,16 +10,11 @@ int main() {
     
     // Calcular e exibir os resultados
     int remainder = first % second;
+
     int odd = (first + second) % 2;
-    if (odd > 0) {
-        odd = 1;
-    }
-    
-    int divisible = (first / second) % 2;
-    if (divisible > 0)
-    {
-        divisible = 1;
-    }
+        
+    int divisible = remainder == 0;
+
 
     printf("Remainder: %d\n", remainder);
     printf("Sum is odd: %d\n", odd);

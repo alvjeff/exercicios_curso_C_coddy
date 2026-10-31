@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "/home/spp/Documentos/SGT_JEFFERSON/03-PROJETOS PESSOAIS/exercicios_curso_C_coddy/3-operadores",
+      "program": "/home/spp/Documentos/SGT_JEFFERSON/03-PROJETOS PESSOAIS/exercicios_curso_C_coddy/3-operadores/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
